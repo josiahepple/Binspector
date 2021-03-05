@@ -1,0 +1,444 @@
+		FILE INFO
+================================================
+#  C:\Windows\System32\cmd.exe
+================================================
+CPU Arch:	x86_x64
+Exe Bitness:	(x64)
+Entry Point:	0x18f50
+Subsystem:	Windows CLI
+Checksum:	316591
+
+
+		SECTIONS
+=================================================
+#  name		offset	size	rwx   code/data
+=================================================
+0: .text	0x400	0x31000	R X   C
+1: .rdata	0x31400	0xa600	R     D 
+2: .data	0x3ba00	0x200	RW    D 
+3: .pdata	0x3bc00	0x2400	R     D 
+4: .didat	0x3e000	0x200	RW    D 
+5: .rsrc	0x3e200	0x8600	R     D 
+6: .reloc	0x46800	0x400	R     D 
+
+
+		IMPORT TABLES
+=================================================
+#  msvcrt.dll
+=================================================
+0x241276		_setmode
+0x241268		exit
+0x241256		iswxdigit
+0x241248		time
+0x241240		srand
+0x241232		_wtol
+0x241222		fflush
+0x241212		wcsstr
+0x241200		iswalpha
+0x241190		wcstoul
+0x241180		_errno
+0x241170		printf
+0x241162		rand
+0x241152		fprintf
+0x241288		wcsncmp
+0x241298		_pipe
+0x241540		_commode
+0x241564		_lock
+0x241142		wcsrchr
+0x241132		realloc
+0x241120		towlower
+0x241518		_initterm
+0x241498		__setusermatherr
+0x241108		setlocale
+0x241098		_wcsupr
+0x241086		iswdigit
+0x241306		_ultoa
+0x241488		_cexit
+0x241572		_unlock
+0x241480		_exit
+0x241582		__dllonexit
+0x241074		_wcsicmp
+0x241062		iswspace
+0x241052		wcschr
+0x241044		fgets
+0x240832		??_V@YAXPEAX@Z
+0x241034		_pclose
+0x241024		ferror
+0x241596		_onexit
+0x241606		__CxxFrameHandler3
+0x241326		_open_osfhandle
+0x241344		_close
+0x241016		feof
+0x241354		_dup
+0x241006		_wpopen
+0x240994		_wcsnicmp
+0x241628		?terminate@@YAXXZ
+0x247080		memset
+0x240984		wcstol
+0x240966		_get_osfhandle
+0x241362		_dup2
+0x240956		_getch
+0x240944		towupper
+0x247070		memcmp
+0x247060		_setjmp
+0x240934		wcsspn
+0x241530		_fmode
+0x241370		qsort
+0x241462		__set_app_type
+0x240926		_tell
+0x241378		_wcslwr
+0x240916		longjmp
+0x247044		_local_unwind
+0x241388		_purecall
+0x240892		__C_specific_handler
+0x240876		??3@YAXPEAX@Z
+0x240864		memcpy_s
+0x241400		free
+0x241408		calloc
+0x241446		__getmainargs
+0x241418		_XcptFilter
+0x241432		_amsg_exit
+0x246818		??1type_info@@UEAA@XZ
+0x246808		memmove
+0x246798		memcpy
+0x246776		_CxxThrowException
+0x240850		_vsnwprintf
+0x241316		swscanf
+0x246592		__iob_func
+0x246606		malloc
+0x246616		_callnewh
+0x246628		??0exception@@QEAA@AEBQEBD@Z
+0x246660		??0exception@@QEAA@AEBQEBDH@Z
+0x246692		??0exception@@QEAA@AEBV0@@Z
+0x246722		??1exception@@UEAA@XZ
+0x246746		?what@exception@@UEBAPEBDXZ
+0x247090		wcscmp
+
+=================================================
+#  ntdll.dll
+=================================================
+0x242074		RtlLookupFunctionEntry
+0x242054		RtlCaptureContext
+0x246842		NtOpenProcessToken
+0x246864		NtQueryInformationToken
+0x246890		NtClose
+0x246900		NtOpenThreadToken
+0x242040		RtlFreeHeap
+0x242022		NtFsControlFile
+0x241990		RtlDosPathNameToNtPathName_U
+0x242100		RtlVirtualUnwind
+0x241936		RtlFreeUnicodeString
+0x241910		RtlReleaseRelativeName
+0x241896		NtOpenFile
+0x241846		RtlDosPathNameToRelativeNtPathName_U_WithStatus
+0x241822		NtSetInformationFile
+0x241790		NtQueryVolumeInformationFile
+0x241764		NtSetInformationProcess
+0x241736		NtQueryInformationProcess
+0x241712		RtlNtStatusToDosError
+0x241684		NtCancelSynchronousIoFile
+0x241648		RtlCreateUnicodeStringFromAsciiz
+0x241960		RtlFindLeastSignificantBit
+
+=================================================
+#  api-ms-win-core-kernel32-legacy-l1-1-0.dll
+=================================================
+0x242130		CopyFileW
+0x242142		GetConsoleWindow
+
+=================================================
+#  api-ms-win-core-libraryloader-l1-2-0.dll
+=================================================
+0x242580		GetModuleHandleW
+0x242206		GetModuleFileNameA
+0x243906		LoadLibraryExW
+0x242504		GetProcAddress
+0x244272		GetModuleFileNameW
+0x242298		GetModuleHandleExW
+
+=================================================
+#  api-ms-win-core-synch-l1-1-0.dll
+=================================================
+0x242228		CreateSemaphoreExW
+0x244196		InitializeCriticalSection
+0x242320		WaitForSingleObject
+0x242278		ReleaseSemaphore
+0x244112		TryAcquireSRWLockExclusive
+0x242436		WaitForSingleObjectEx
+0x242364		ReleaseMutex
+0x242952		ReleaseSRWLockShared
+0x242928		AcquireSRWLockShared
+0x244318		LeaveCriticalSection
+0x242522		CreateMutexExW
+0x244294		EnterCriticalSection
+0x244142		ReleaseSRWLockExclusive
+0x242460		OpenSemaphoreW
+
+=================================================
+#  api-ms-win-core-heap-l1-1-0.dll
+=================================================
+0x242250		HeapFree
+0x242492		HeapAlloc
+0x242562		GetProcessHeap
+0x244410		HeapSetInformation
+0x244462		HeapReAlloc
+0x244476		HeapSize
+
+=================================================
+#  api-ms-win-core-errorhandling-l1-1-0.dll
+=================================================
+0x242262		SetLastError
+0x245172		UnhandledExceptionFilter
+0x242398		GetLastError
+0x243540		SetErrorMode
+0x245200		SetUnhandledExceptionFilter
+
+=================================================
+#  api-ms-win-core-processthreads-l1-1-0.dll
+=================================================
+0x243556		InitializeProcThreadAttributeList
+0x242342		GetCurrentThreadId
+0x243592		UpdateProcThreadAttribute
+0x243620		DeleteProcThreadAttributeList
+0x243652		GetStartupInfoW
+0x243670		CreateProcessAsUserW
+0x244396		OpenThread
+0x243694		CreateProcessW
+0x245068		ResumeThread
+0x244732		TerminateProcess
+0x244752		GetExitCodeProcess
+0x245230		GetCurrentProcess
+0x242540		GetCurrentProcessId
+
+=================================================
+#  api-ms-win-core-localization-l1-2-0.dll
+=================================================
+0x245084		GetThreadLocale
+0x242684		SetThreadLocale
+0x242380		FormatMessageW
+0x243132		GetLocaleInfoW
+0x242650		GetCPInfo
+0x244526		GetACP
+0x243110		GetUserDefaultLCID
+
+=================================================
+#  api-ms-win-core-debug-l1-1-0.dll
+=================================================
+0x242414		OutputDebugStringW
+0x242600		DebugBreak
+0x242614		IsDebuggerPresent
+
+=================================================
+#  api-ms-win-core-handle-l1-1-0.dll
+=================================================
+0x244488		DuplicateHandle
+0x242478		CloseHandle
+
+=================================================
+#  api-ms-win-core-memory-l1-1-0.dll
+=================================================
+0x244446		VirtualAlloc
+0x242634		VirtualQuery
+0x244432		VirtualFree
+0x243924		ReadProcessMemory
+
+=================================================
+#  api-ms-win-core-console-l1-1-0.dll
+=================================================
+0x243006		ReadConsoleW
+0x244224		SetConsoleCtrlHandler
+0x243326		SetConsoleMode
+0x243080		WriteConsoleW
+0x243308		GetConsoleMode
+0x242662		GetConsoleOutputCP
+
+=================================================
+#  api-ms-win-core-file-l1-1-0.dll
+=================================================
+0x242786		CreateFileW
+0x244506		FlushFileBuffers
+0x244372		GetFileAttributesExW
+0x244356		GetDriveTypeW
+0x242774		FindClose
+0x242758		FindNextFileW
+0x244622		CreateDirectoryW
+0x244088		GetVolumeInformationW
+0x244642		SetFileAttributesW
+0x244664		SetEndOfFile
+0x244040		SetFilePointerEx
+0x244028		WriteFile
+0x244680		DeleteFileW
+0x244694		SetFileTime
+0x245102		GetVolumePathNameW
+0x242702		SetFilePointer
+0x242800		ReadFile
+0x243712		GetFileAttributesW
+0x243096		GetFileType
+0x244830		RemoveDirectoryW
+0x244958		FindFirstFileExW
+0x244850		CompareFileTime
+0x242720		GetFullPathNameW
+0x244936		GetDiskFreeSpaceExW
+0x243206		FileTimeToLocalFileTime
+0x242834		GetFileSize
+0x242740		FindFirstFileW
+
+=================================================
+#  api-ms-win-core-string-l1-1-0.dll
+=================================================
+0x242848		WideCharToMultiByte
+0x242812		MultiByteToWideChar
+
+=================================================
+#  api-ms-win-core-processenvironment-l1-1-0.dll
+=================================================
+0x243370		GetCommandLineW
+0x243416		GetEnvironmentStringsW
+0x244168		ExpandEnvironmentStringsW
+0x243442		FreeEnvironmentStringsW
+0x243468		SetEnvironmentVariableW
+0x244014		SearchPathW
+0x244708		SetCurrentDirectoryW
+0x244774		GetCurrentDirectoryW
+0x243344		GetEnvironmentVariableW
+0x243494		SetEnvironmentStringsW
+0x242870		GetStdHandle
+
+=================================================
+#  api-ms-win-core-console-l2-1-0.dll
+=================================================
+0x243022		SetConsoleCursorPosition
+0x242976		GetConsoleScreenBufferInfo
+0x244536		ScrollConsoleScreenBufferW
+0x244566		FillConsoleOutputAttribute
+0x243050		FillConsoleOutputCharacterW
+0x242886		FlushConsoleInputBuffer
+0x244596		SetConsoleTextAttribute
+
+=================================================
+#  api-ms-win-security-base-l1-1-0.dll
+=================================================
+0x244868		GetFileSecurityW
+0x242912		RevertToSelf
+0x244888		GetSecurityDescriptorOwner
+
+=================================================
+#  api-ms-win-core-sysinfo-l1-1-0.dll
+=================================================
+0x243166		GetSystemTime
+0x243150		SetLocalTime
+0x245276		GetSystemTimeAsFileTime
+0x245302		GetTickCount
+0x244248		GetWindowsDirectoryW
+0x243292		GetLocalTime
+0x244342		GetVersion
+
+=================================================
+#  api-ms-win-core-timezone-l1-1-0.dll
+=================================================
+0x243182		SystemTimeToFileTime
+0x243232		FileTimeToSystemTime
+
+=================================================
+#  api-ms-win-core-datetime-l1-1-0.dll
+=================================================
+0x243256		GetDateFormatW
+0x243274		GetTimeFormatW
+
+=================================================
+#  api-ms-win-core-systemtopology-l1-1-0.dll
+=================================================
+0x245038		GetNumaNodeProcessorMaskEx
+0x243388		GetNumaHighestNodeNumber
+
+=================================================
+#  api-ms-win-core-console-l2-2-0.dll
+=================================================
+0x243982		SetConsoleTitleW
+0x243520		GetConsoleTitleW
+
+=================================================
+#  api-ms-win-core-processenvironment-l1-2-0.dll
+=================================================
+0x243734		NeedCurrentDirectoryForExePathW
+
+=================================================
+#  api-ms-win-core-registry-l1-1-0.dll
+=================================================
+0x243784		RegCloseKey
+0x243888		RegSetValueExW
+0x243768		RegOpenKeyExW
+0x243870		RegCreateKeyExW
+0x243818		RegEnumKeyExW
+0x243834		RegDeleteKeyExW
+0x243852		RegDeleteValueW
+0x243798		RegQueryValueExW
+
+=================================================
+#  api-ms-win-core-file-l2-1-0.dll
+=================================================
+0x243968		MoveFileExW
+0x245124		CreateSymbolicLinkW
+0x245146		CreateHardLinkW
+0x243944		MoveFileWithProgressW
+0x244798		GetFileInformationByHandleEx
+
+=================================================
+#  api-ms-win-core-heap-l2-1-0.dll
+=================================================
+0x244060		GlobalAlloc
+0x244074		GlobalFree
+0x244002		LocalFree
+
+=================================================
+#  api-ms-win-core-io-l1-1-0.dll
+=================================================
+0x244918		DeviceIoControl
+
+=================================================
+#  api-ms-win-core-winrt-l1-1-0.dll
+=================================================
+0x244978		RoInitialize
+0x244994		RoUninitialize
+
+=================================================
+#  api-ms-win-core-processtopology-l1-1-0.dll
+=================================================
+0x245012		GetThreadGroupAffinity
+
+=================================================
+#  api-ms-win-core-synch-l1-2-0.dll
+=================================================
+0x245164		Sleep
+
+=================================================
+#  api-ms-win-core-profile-l1-1-0.dll
+=================================================
+0x245250		QueryPerformanceCounter
+
+=================================================
+#  api-ms-win-core-string-obsolete-l1-1-0.dll
+=================================================
+0x246394		lstrcmpW
+0x246382		lstrcmpiW
+
+=================================================
+#  api-ms-win-core-processtopology-obsolete-l1-1-0.dll
+=================================================
+0x246450		SetProcessAffinityMask
+
+=================================================
+#  api-ms-win-core-apiquery-l1-1-0.dll
+=================================================
+0x246528		ApiSetQueryApiSetPresence
+
+=================================================
+#  api-ms-win-core-delayload-l1-1-1.dll
+=================================================
+0x246920		ResolveDelayLoadedAPI
+
+=================================================
+#  api-ms-win-core-delayload-l1-1-0.dll
+=================================================
+0x246944		DelayLoadFailureHook
+
