@@ -19,7 +19,6 @@ void binspect(char* argv[], int argc)
 	peInfo* binaryData;
 	binaryData = (peInfo*)malloc(sizeof(peInfo));
 	UCHAR* buffer = copyFileToMemory(argv);
-		printf("RVA\t\tFunction\n");
 	UCHAR* index = buffer;
 
 	DOS_HEADER = (_IMAGE_DOS_HEADER*)index;
@@ -63,7 +62,11 @@ void parseOptHeader(peInfo* binaryData)
 {
 	//Bitness of the Program
 	if (OPT_HEADER.Magic == 0x10b)
-		printf("Exe Bitness:\t(x86)\n");
+	{
+		printf("Exe Bitness:\t(x86)\n\n");
+		printf("32-Bit files are not currently supported.\nExiting.\n");
+		exit(3);
+	}
 	if (OPT_HEADER.Magic == 0x20b)
 		printf("Exe Bitness:\t(x64)\n");
 	printf("Entry Point:\t0x%lx\n", (OPT_HEADER.AddressOfEntryPoint));
