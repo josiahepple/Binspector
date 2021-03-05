@@ -9,3 +9,6 @@ Set the Visual Studio solution to build either Debug or Release for x64.
 $ Binspector [filePath]
 Example:
 $ Binspector C:\Windows\System32\cmd.exe
+
+## Example Output
+Open the file, "example.txt" included in the repo root.
