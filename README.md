@@ -1,6 +1,10 @@
 # Binspector
 Parse 64-Bit Windows-Compatible binaries without relying on Microsoft-lib dependencies. All information for structures were pulled from Microsoft's public pdb files.
-Provides information such as target architecture, process entry point, sections summary, and all imported DLL's and respective named functions.
+Provides information such as: 
+- compiled target-architecture 
+- process entry point 
+- file offset and size of each section
+- all imported DLL's and respective named functions
 
 ## Building
 Set the Visual Studio solution to build either Debug or Release for x64.
