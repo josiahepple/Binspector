@@ -3,7 +3,7 @@ Parse 64-Bit Windows-Compatible binaries without relying on Microsoft-lib depend
 Provides information such as: 
 - compiled target-architecture 
 - process entry point 
-- file offset and size of each section
+- size, location, memory attributes, and composition of each section
 - all imported DLL's and respective named functions
 
 ## Building
@@ -15,4 +15,5 @@ Example:
 $ Binspector C:\Windows\System32\cmd.exe
 
 ## Example Output
-Open the file, "example.txt" included in the repo root.
+Open the file, "example.txt" included in the repo root to see the full output for this command.
+![example](examplePNG.png)
